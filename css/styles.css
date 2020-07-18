@@ -95,9 +95,11 @@ section {
     height: 400px;
     margin: auto;
     padding: 15%;
-    border: 1px solid #AAA;
+    border: 1px solid #4B3621;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #4B3621;
+    color: #FFF;
 }
 
 .download-title {
@@ -154,9 +156,9 @@ section {
 }
 
 .contact textarea {
-    border: none; 
+    border-radius: 10px; 
     width: 90%;
-    margin: 20px;
+    margin: 25px;
 }
 
 
@@ -185,4 +187,5 @@ section {
     height: 40px;
     margin: 20px auto;
     font-size: 1.1em;
+    border-radius: 10px;
 }
