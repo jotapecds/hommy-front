@@ -1,0 +1,188 @@
+:root {
+    --marrom: #4B3621;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --- HEADER --- */
+.header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color:#FFF;
+    text-shadow: 2px 2px 2px #111;
+}
+
+.header img {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* --- NAVBAR --- */
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    padding: 15px;
+}
+
+.navbar a {
+    color: #FFF;
+}
+
+/* --- SECTIONS --- */
+section {
+    width: 100vw;
+    height: 100vh;
+    padding: 25%;
+}
+
+/* HERO */
+.hero {
+    background-image: url(../img/living-room.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #111;
+    padding-top: 23%;
+}
+
+.slogan {
+    font-size: 2em;
+}
+
+.hero-subtitle { 
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* DOWNLOAD */
+.download {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.download-box {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 15%;
+    border: 1px solid #AAA;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.download-title {
+    font-size: 1.8em;
+}
+
+.download-text {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+/* ABOUT */
+.about {
+    background-image: url(../img/living-room.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    padding-top: 10%;
+}
+
+.about-title {
+    font-size: 1.8em;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #FFF;
+    padding-top: 10%;
+
+}
+.contact-box {
+    min-width: 300px;
+    max-width: 500px;
+    border: 1px solid #AAA;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin: auto
+}
+
+.contact-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact textarea {
+    border: none; 
+    width: 90%;
+    margin: 20px;
+}
+
+
+/* --- FOOTER --- */
+.footer {
+    padding: 30px;
+    background-color: #AAA;
+}
+
+/* --- BUTTONS --- */
+.btn-download {
+    display: block;
+    width: 190px;
+    height: 60px;
+    background-color: forestgreen;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 1.2em;
+
+}
+
+.btn-contact {
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 1.1em;
+}

@@ -4,48 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hommy - Landing page</title>
-    <link rel="stylesheet" href="./styles.cs">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/scripts.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a href="#">
+            <img src="../img/logo-hommy-inverse.png" alt="Logo Hommy">
+        </a>
         <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="./img/logo-hommy-inverse.png" alt="Logo Hommy">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Página inicial</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-                <li>
-                    <a href="#">Baixar aplicativo</a>
-                </li>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h1> Hommy </h1>
-        <h3> Mi republica es tu republica </h3>
-        <form action="#">
-            <input type="button" class="btn-download" value="Baixar aplicativo">
+
+    <section class="hero">
+        <h1 class="slogan"> Mi republica es tu republica </h1>
+        <h2 class="hero-subtitle"> Encontre a república ideal para você</h2>
+    </section>
+
+    <section class="download">
+        <div class="download-box">
+            <h2 class="download-title"> Baixe agora </h2>
+            <h3 class="download-text"> e obtenha todas as vantagens! </h3>
+            <button class="btn-download"> Baixar aplicativo </button>
+        </div>
+    </section>
+    
+    <section class="about">
+        <h2 class="about-title"> Descubra o Hommy </h2>
+        <p class="about-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged.
+        </p>
+    </section>
+
+    <section class="contact">
+        <form class="contact-box" action="#">
+            <h2 class="contact-title"> Fale conosco </h2>
+            <textarea name="" id="" cols="20" rows="5" placeholder="Deixe sua mensagem para nós aqui"></textarea>
+            <button class="btn-contact"> Enviar </button>
         </form>
     </section>
-    <section>
-        <form action="#">
-            <p>Deixe sua mensagem para nós aqui:</p>
-            <textarea name="" id="" cols="30" rows="5" placeholder="Mande sua mensagem aqui"></textarea><br>
-            <input type="submit" class="btn-submit" value="Enviar">
-        </form>
-    </section>
-    <footer>
+
+    <footer class="footer">
         Copyright © 2020 Hommy. All Rights Reserved
     </footer>
 </body>
